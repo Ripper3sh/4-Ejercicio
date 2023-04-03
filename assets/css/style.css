@@ -1,0 +1,62 @@
+* {
+    padding: 0; /* Crea el área alrededor del contenido de un elemento (relleno sup,der,inf e izq) */
+    margin: 0; /* Crea un espacio alredeor del elemento */
+    box-sizing: border-box; /* context box gives u the default CSS box-sizing behavior */
+}
+/* Fuente: https://www.hostinger.com.ar/tutoriales/padding-vs-margin */
+.container{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+h1{
+    color: blue;
+    text-align: center; /* Esto es para centrar */
+    text-decoration: underline; /* Esto es para establecer el formato de texto (underline) */
+    padding: 10px;
+}
+.caja{
+    display: inline-block;
+    font-size: 30px; /*Tamaño de fuente */
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+#none{
+    border: none;
+}
+
+#dotted{
+    border: dotted;
+}
+
+#dashed{
+    border: dashed;
+}
+
+#solid{
+    border: solid;
+}
+
+#double{
+    border: double;
+}
+
+#groove{
+    border: groove;
+}
+
+#ridge{
+    border: ridge;
+}
+
+#inset{
+    border: inset;
+}
+
+#outset{
+    border: outset;
+}
